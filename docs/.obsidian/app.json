@@ -4,5 +4,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "defaultViewMode": "preview",
+  "promptDelete": false
 }
