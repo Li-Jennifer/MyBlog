@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4949a348bf433e0b",
+        "id": "a90794256c55da81",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "10.基础/20.数据分析/01.软件安装使用.md",
+            "file": "20.DS/01.Programming/29.Programming report.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jupyter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204
+    "width": 276.5
   },
   "right": {
     "id": "31ef1a4becdf1cd2",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10.基础/20.数据分析/01.软件安装使用.md",
+                "file": "20.DS/01.Programming/29.Programming report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10.基础/20.数据分析/01.软件安装使用.md",
+                "file": "20.DS/01.Programming/29.Programming report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,28 +117,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.基础/20.数据分析/01.软件安装使用.md"
+                "file": "20.DS/01.Programming/29.Programming report.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 254
   },
-  "active": "4949a348bf433e0b",
+  "active": "a90794256c55da81",
   "lastOpenFiles": [
-    "60.其他/01.Week5/00.English.md",
-    "60.其他/01.Week5/01.Listening.md",
-    "10.Week5/01.Listening.md",
-    "50.工具/01.软件使用/05.Markdown使用指南.md",
-    "50.工具/01.软件使用/02.论文写作软件.md",
-    "50.工具/01.软件使用/03.Obsidian.md",
-    "50.工具/01.软件使用/04.Vuepress.md",
-    "50.工具/02.信息收集/05.前段web素材收集.md",
-    "50.工具/01.软件使用/01.软件安装.md",
-    "60.其他/01.Week5/03.Reading.md"
+    "20.DS/01.Programming/25.Unix.md",
+    "20.DS/01.Programming/26.Bash.md",
+    "20.DS/01.Programming/27.linux commands.md",
+    "20.DS/01.Programming/28.Unix assignments.md",
+    "20.DS/01.Programming/29.Programming report.md",
+    "img/programming_mtv.png",
+    "img/system_architecture.png",
+    "20.DS/01.Programming/35.readme.md",
+    "20.DS/01.Programming/34. programming.md",
+    "20.DS/01.Programming/33.programming.md"
   ]
 }

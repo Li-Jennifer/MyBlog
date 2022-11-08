@@ -2,6 +2,7 @@ import { resolve } from 'path'
 import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
+// import extendsMarkdown
 const nav = require("./config/nav.js");
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
@@ -92,6 +93,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ["meta", { name: "theme-color", content: "#42b983" }], // 移动浏览器主题颜色
   ],
 
+
   // 插件配置
   plugins: <UserPlugins>[
     // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
@@ -152,26 +154,28 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         },
       },
     ],
-    [
-      'vuepress-plugin-comment', // 评论
-      {
-        choosen: 'gitalk',
-        options: {
-          clientID: 'f09e4ec6a96c138b2b82',
-          clientSecret: '7f46f6335f7b05a8fa5acf872b364aa97c00e457',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'li-jennifer', // GitHub仓库所有者
-          admin: ['li-jennifer'], // 对仓库有写权限的人
-          // distractionFreeMode: true,
-          pagerDirection: 'last', // 'first'正序 | 'last'倒序
-          id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-          title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-          labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-          body:
-            '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-        },
-      },
-    ],
+    
+  
+    // [
+    //   'vuepress-plugin-comment', // 评论
+    //   {
+    //     choosen: 'gitalk',
+    //     options: {
+    //       clientID: 'f09e4ec6a96c138b2b82',
+    //       clientSecret: '7f46f6335f7b05a8fa5acf872b364aa97c00e457',
+    //       repo: 'blog-gitalk-comment', // GitHub 仓库
+    //       owner: 'li-jennifer', // GitHub仓库所有者
+    //       admin: ['li-jennifer'], // 对仓库有写权限的人
+    //       // distractionFreeMode: true,
+    //       pagerDirection: 'last', // 'first'正序 | 'last'倒序
+    //       id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+    //       title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+    //       labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+    //       body:
+    //         '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+    //     },
+    //   },
+    // ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式
       {
@@ -185,6 +189,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   markdown: {
     lineNumbers: true,
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+    
   },
 
   // 监听文件变化并重新构建

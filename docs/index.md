@@ -4,7 +4,7 @@ home: true
 heroText: Jennifer's blog
 tagline: 技术博客
 actionText: About me →
-actionLink: /pages/d87702/
+actionLink: /pages/0b8e30/
 bannerBg: none
 
 # features: # 可选的

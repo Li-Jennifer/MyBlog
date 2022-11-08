@@ -4,7 +4,9 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "./attachments",
-  "defaultViewMode": "preview",
-  "promptDelete": false
+  "attachmentFolderPath": "img",
+  "defaultViewMode": "source",
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "livePreview": true
 }
