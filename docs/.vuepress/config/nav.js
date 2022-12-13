@@ -1,17 +1,25 @@
 module.exports = [
   { text: "首页", link: "/" },
   { text: "基础", link: "/pages/0c4bb0/" },
-  { text: "🍿DS", link: "/pages/b49b43/" ,
-  items: [
-    { text: "Programming", link: "/pages/b49b43/" },
-    { text: "Data Science", link: "/pages/b8137a/" },
-    { text: "ML&AI", link: "/pages/913e6e/" },
-    { text: "Research", link: "/pages/531989/" },
-  ],
-},
-  { text: "🤖️AI", link: "/pages/3ac64d/" },
+  {
+    text: "🍿DS", link: "/pages/b49b43/",
+    items: [
+      { text: "Programming", link: "/pages/b49b43/" },
+      { text: "Data Science", link: "/pages/b8137a/" },
+      { text: "ML&AI", link: "/pages/913e6e/" },
+      { text: "Research", link: "/pages/531989/" },
+    ],
+  },
+  { text: "🤖️AI", link: "/pages/53e1e7/" },
   { text: "📒笔记", link: "/pages/86bf5b/" },
-  { text: "🧀收藏", link: "/pages/200c74/" },
+  {
+    text: "🧀收藏", link: "/pages/a2603a/",
+    items: [
+      { text: "软件使用", link: "/pages/200c74/" },
+      { text: "信息收集", link: "/pages/a2603a/" },
+
+    ],
+  },
   { text: "其他", link: "/pages/22f2df/" },
   {
     text: "🥝索引",
